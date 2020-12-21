@@ -1,4 +1,5 @@
 #pragma once
+#include "CoreIncludes/STLTypes.h"
 #include "Tasks/CompoundTasks/DecompositionStatus.h"
 
 namespace FluidHTN
