@@ -69,7 +69,7 @@ public:
 
     virtual bool AddCondition(SharedPtr<ICondition>& Condition)
     {
-        _Conditions.push_back(Condition);
+        _Conditions.Add(Condition);
         return true;
     }
 
