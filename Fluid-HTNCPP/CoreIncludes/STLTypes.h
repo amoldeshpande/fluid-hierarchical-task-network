@@ -3,7 +3,7 @@
 //
 #pragma once
 
-#if !USING_CUSTOM_STL
+#if !FHTN_USING_CUSTOM_STL
 
 template<typename T>
 using SharedPtr = std::shared_ptr<T>;
@@ -147,4 +147,4 @@ StringType ToString(const T& arg)
 
 #else
 #include "STLReplacementTypes.h"
-#endif !USING_CUSTOM_STL
+#endif !FHTN_USING_CUSTOM_STL
